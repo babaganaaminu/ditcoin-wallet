@@ -1,0 +1,20 @@
+{
+    "name": "babaganaaminu/ditcoin-wallet",
+    "description": "A PHP library for the Monero simplewallet JSON-RPC interface.",
+    "keywords": ["Monero", "Poloniex", "cryptocurrency", "Shapeshift"],
+    "homepage": "https://github.com/babaganaaminu/ditcoin-wallet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babagana Yahaya Aminu",
+            "email": "yahayababaganamn2@gmail.com"
+        }
+    ],
+    "require": {
+        "graze/guzzle-jsonrpc": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {"Monero\\":"src/"}
+    }
+}
