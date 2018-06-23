@@ -22,9 +22,9 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0"
+        "graze/guzzle-jsonrpc": "^3.2"
     },
     "autoload": {
-        "psr-4": {"babaganaaminu\\":"src/"}
+        "psr-4": {"Ditcoin\\":"src/"}
     }
 }
