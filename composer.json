@@ -1,0 +1,30 @@
+{
+    "name": "ditcoin/ditcoin-wallet",
+    "description": "A PHP library for the `ditcoin-wallet-rpc` interface.",
+    "keywords": [
+        "Ditcoin",
+        "ditcoin-wallet-rpc",
+        "bitcoin",
+        "monero",
+        "blockchain",
+        "php", 
+        "Poloniex", 
+        "cryptocurrency", 
+        "Shapeshift"
+    ],
+    "homepage": "https://github.com/ditcoin/ditcoin-wallet-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tindo N. Arsel",
+            "email": "devtnga@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {"Ditcoin\\":"src/"}
+    }
+}
