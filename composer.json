@@ -25,6 +25,6 @@
         "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
-        "psr-4": {"Ditcoin\\":"src/"}
+        "psr-4": {"babaganaaminu\\":"src/"}
     }
 }
